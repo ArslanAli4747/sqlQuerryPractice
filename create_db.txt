@@ -1,0 +1,3 @@
+create database in sql
+
+query => create database database_name

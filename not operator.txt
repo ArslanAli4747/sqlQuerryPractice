@@ -1,0 +1,3 @@
+query => use student;
+select * from student_record
+where not age =33

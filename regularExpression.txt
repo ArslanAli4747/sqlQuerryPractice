@@ -1,0 +1,42 @@
+query1 =>
+use student;
+
+select * from student_record
+where name regexp "[su]";
+
+search for "s" or "u" in the name
+
+query2 =>
+use student;
+
+select * from student_record
+where name regexp "^i"; 
+
+search for name that start with "i" 
+
+query3 =>
+use student;
+
+select * from student_record
+where name regexp "a$"; 
+
+search for name that ends with "a"
+
+
+query4 =>
+use student;
+
+select * from student_record
+where name regexp "alpha|arslan"; 
+
+search for given names "don`t put space between | operator"
+
+
+
+query5 =>
+use student;
+
+select * from student_record
+where name regexp "^[a-d]"; 
+
+work like a range "search for name that start from a to d"

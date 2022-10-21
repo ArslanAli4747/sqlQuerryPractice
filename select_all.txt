@@ -1,0 +1,4 @@
+select all row and columns
+
+query => use student;
+select * from student_record

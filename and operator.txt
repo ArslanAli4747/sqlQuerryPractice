@@ -1,0 +1,5 @@
+work for same row mean both condition true for same row
+
+query =>use student;
+select * from student_record
+where  age =29 and roll_number = 101

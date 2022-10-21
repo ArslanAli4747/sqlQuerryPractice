@@ -1,0 +1,33 @@
+insert into students(
+id,name,age,gender,courses,city
+)
+values(
+1,"jhon lankan",44,"Male",1,1
+),
+(
+2,"steve smith",24,"Male",2,1
+),
+(
+3,"Aron finch",32,"Male",1,2
+),
+(
+4,"Anna tylor",45,"Female",2,3
+),
+(
+5,"Trent boult",29,"Male",3,3
+),
+(
+6,"Teena moray",33,"Female",2,2
+),
+(
+7,"Ross taylor",35,"Male",3,2
+),
+(
+8,"Buttler james",26,"Male",1,3
+),
+(
+9,"cristy oliver",39,"Female",2,2
+),
+(
+10,"jerry bank",45,"Male",3,2
+);

@@ -1,0 +1,52 @@
+query1 =>
+use student;
+
+select * from student_record
+where name like "a%"; 
+search for name that start with givent letter in this case "a"
+
+query2 =>
+use student;
+
+select * from student_record
+where name like "%a"; 
+
+that ends with given character
+
+
+query =>3
+use student;
+
+select * from student_record
+where name like "%ia%"; 
+
+given word or letter come any where
+
+
+query4 =>
+use student;
+
+select * from student_record
+where name like "a_s%"; 
+
+dont know the second position but should come "a" at first position and "s" at 3rd
+
+
+query5 =>
+use student;
+
+select * from student_record
+where name like "_r%"; 
+
+
+query6 =>
+use student;
+
+select * from student_record
+where name like "%a_"; 
+
+query7 =>
+use student;
+
+select * from student_record
+where name like "%ia%" OR name like  "iq%"; 

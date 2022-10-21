@@ -1,0 +1,7 @@
+constraints in sql
+
+check (condition)
+not null
+primery key
+unique
+default "value"

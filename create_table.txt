@@ -1,0 +1,3 @@
+create table in sql
+
+query => create table table_name(columns here sperated by comma)

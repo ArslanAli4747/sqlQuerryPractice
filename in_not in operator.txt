@@ -1,0 +1,13 @@
+in operator give result for given values 
+
+query =>
+use student;
+select * from student_record
+where  age in(29,39)
+
+
+
+query =>
+use student;
+select * from student_record
+where not age  in(29,39)

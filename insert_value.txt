@@ -1,0 +1,8 @@
+insert value into table
+
+query => insert into student_record(roll_number,name,age,address,phone_number)value(
+values sperated by comma
+),
+(
+values sperated by comma
+)

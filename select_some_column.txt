@@ -1,0 +1,4 @@
+select some with alias
+
+query => use student;
+select roll_number as "ROLL NUMBER", name as NAME   from student_record

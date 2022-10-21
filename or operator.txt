@@ -1,0 +1,6 @@
+work for same or multiple row
+
+query => 
+use student;
+select * from student_record
+where  age =29 or roll_number = 102
